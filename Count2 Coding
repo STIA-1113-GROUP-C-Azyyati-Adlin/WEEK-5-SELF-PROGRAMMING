@@ -1,0 +1,32 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Count2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter amount : ");
+        double amount = scanMe.nextDouble();
+        
+        System.out.println("Enter balance : ");
+        double balance = scanMe.nextDouble();
+        
+        if(amount<=balance)
+        {	
+        balance = (balance - amount);
+        }
+        System.out.println("Acct new balance = " + balance);
+        
+        if(amount>=balance)
+        {	
+        balance = (balance - amount);
+        }
+        System.out.println("Acct new balance = " + balance);
+        
+	}
+
+}

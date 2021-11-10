@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter your age : ");
+		int age = scan.nextInt();
+		switch (age)
+		{
+		 case 10 :
+		    System.out.println("kids");
+		    break;
+		 case 15 :
+		    System.out.println("teen"); 
+		    break;
+		 case 20 :
+		    System.out.println("adults");
+		    break;
+		 default:
+		   System.out.println("default");} 
+	}
+}

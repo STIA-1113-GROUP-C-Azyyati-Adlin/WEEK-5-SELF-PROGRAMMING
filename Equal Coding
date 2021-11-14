@@ -1,0 +1,21 @@
+package exercise;
+
+public class Count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        double d1 = 2.2 + 4.4;
+        double d2 = 6.6;
+        
+        int d3 = 2+4;
+        int d4 = 6;
+        
+        String s1 = "Azy";
+        String s2 = "Azy";
+        
+        System.out.println(d1==d2);
+        System.out.println(d3==d4);
+        System.out.println(s1==s2);
+	}
+
+}
